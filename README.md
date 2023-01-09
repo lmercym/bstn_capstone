@@ -24,6 +24,46 @@ Our work for this project will focus on 4 areas, each in a separate Jupyter note
 
 - /glove.6B.300d.txt: Pre-trained vectors used for Glove embedding
 
-## Dataset information
+## Clean Dataset information
 
-
+- title: Book title
+- description: Book description
+- pages: Number of pages
+- word_count_title: Number of words in title
+- is_series: Indicates whether or not the book is part of a series	
+- book_count_by_author: Number of books the author has listed on the Goodreads' Best Book Ever list
+- word_count_description: Number of words in description
+- genre_Adult: Indicates the book's genre ( a book can be multiple genres)
+- genre_Adventure: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Biography: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Childrens: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Classics: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Contemporary: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Fantasy: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Fiction: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Historical: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Historical Fiction: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_History: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Horror: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Islam: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Literature: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Magic: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Mystery: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Nonfiction: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Novels: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Paranormal: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Poetry: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Romance: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Science Fiction: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Thriller: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Urban: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Young Adult: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- genre_Other: Indicates whether the book belongs to this genre ( a book can be multiple genres)
+- format_Audiobook: Book's format
+- format_Hardcover: Book's format
+- format_Mass Market Paperback: Book's format
+- format_Paperback: Book's format
+- format_ebook: Book's format
+- has_awards: Indicates whether the book has received awards or not
+- publish_year: Year the edition has been published
+- is_popular: Indicates whether or not a book is popular (1 if rating >4.0, 0 if not)
