@@ -16,13 +16,14 @@ Our work for this project will focus on 4 areas, each in a separate Jupyter note
 
 ## Contents
 
-/books_1.Best_Books_Ever.csv : Original dataset collected from this [GitHub repository](https://github.com/scostap/goodreads_bbe_dataset)
+- /books_1.Best_Books_Ever.csv : Original dataset collected from this [GitHub repository](https://github.com/scostap/goodreads_bbe_dataset)
 
-/books_df_clean.csv : Dataset after EDA and cleanup, used for running the machine learning models in notebooks 2,3 and 4
+- /books_df_clean.csv : Dataset after EDA and cleanup, used for running the machine learning models in notebooks 2,3 and 4
 
-/lexvec.enwiki+newscrawl.300d.W.pos.vectors : 
+- /lexvec.enwiki+newscrawl.300d.W.pos.vectors : Pre-trained vectors used for Word2Vec embedding
 
-/glove.6B.300d.txt: 
+- /glove.6B.300d.txt: Pre-trained vectors used for Glove embedding
 
 ## Dataset information
+
 
